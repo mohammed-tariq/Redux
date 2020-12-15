@@ -9,7 +9,7 @@ const Navbar =()=>{
     return (
         <nav className="navbar">
             <div className="nav-logo">
-                <Link className="navlinks">LOGO</Link>
+                 {user.length>1 ? <Link to='/dashboard' className="navlinks">LOGO</Link> : <Link to='/' className="navlinks">LOGO</Link>}
             </div>
             <div className="navPages">
     {user.length>1 ? <Link to='/profile' className="navlinks">@{user}</Link> : <Link className="navlinks">Login</Link>}
