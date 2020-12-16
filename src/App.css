@@ -32,6 +32,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 .dashboard, .profilePage{
 position: relative;
+  width: 800px;
 left: 300px;
 }
 
